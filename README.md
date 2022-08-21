@@ -1,4 +1,4 @@
-<p align="center"><a><img src="assets/images/strome.svg" width="300" height="500"></a></p>
+<p align="center"><a><img src="assets/images/strome.svg" width="500" height="500"></a></p>
 
 <!-- <p align="center" style="color:#2196F3;">Strome.ly</p> -->
 
