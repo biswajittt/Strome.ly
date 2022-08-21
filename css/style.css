@@ -1,0 +1,203 @@
+body {
+    background-color: #f8f8f8;
+}
+
+html {
+    height: 100%;
+}
+
+.help_text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 37rem;
+
+}
+
+.spacing {
+    margin-left: 10px;
+}
+
+.weather-info {
+    width: 50rem;
+    height: 30rem;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-modal {
+    background-color: transparent;
+}
+
+.current-weather {
+    width: 20rem;
+
+}
+
+.current_weather_temp {
+    margin-top: 4rem;
+}
+
+.current-weather-list {
+    width: 20rem;
+    margin-left: 6rem;
+}
+
+.forecast {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.astext {
+    background: none;
+    border: none;
+    margin: 0;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.col.margin-to-keys {
+    margin-left: 2px;
+}
+
+.col.margin-to-values1 {
+    margin-left: 20px;
+}
+
+.col.margin-to-values2 {
+    margin-left: 22px;
+}
+
+.col.margin-to-values3 {
+    margin-left: 6px;
+}
+
+.col.margin-to-values4 {
+    margin-left: 24px;
+}
+
+.col.margin-to-values5 {
+    margin-left: 32px;
+}
+
+.col.margin-to-values6 {
+    margin-left: 36px;
+}
+
+nav form {
+    position: relative;
+    height: 100%;
+}
+
+input.search-field {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+    border: 0;
+    height: 36px;
+    padding: 8px 8px 8px 60px;
+    width: 200px;
+    background: #f7f7f7;
+    transition: background 0.2s, width .2s;
+}
+
+input.search-field:hover {
+    background: #ebebeb;
+}
+
+.searchbox {
+    position: relative;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+input.search-field:focus {
+    outline: none;
+    width: 350px;
+    color: #212121;
+
+}
+
+input.search-field:focus:hover {
+    background: #f7f7f7;
+}
+
+.search-icon {
+    position: absolute;
+    top: 0;
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+@media only screen and (max-width: 600px) {
+
+    ::placeholder {
+        color: gray;
+    }
+
+    input.search-field {
+        width: 7rem;
+        margin-right: 0px;
+        padding: 8px 25px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .weather-info {
+        width: 96vw;
+        height: 30rem;
+        margin-top: 100px;
+        margin-left: 2vw;
+        margin-right: 3vw;
+
+    }
+
+    .astext {
+        padding-left: 19rem;
+        padding-top: 0rem;
+    }
+
+    .help_text {
+        line-height: 33rem;
+
+    }
+
+    .forecast {
+        width: 96vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 23rem;
+    }
+
+    .current-weather {
+        margin-left: 3.1rem;
+    }
+
+    .current_weather_temp {
+        margin-top: 1rem;
+    }
+
+    .current-weather-list {
+        margin-top: 4rem;
+        width: 20rem;
+        margin-left: 3.1rem;
+    }
+
+    .description {
+        margin-left: 8.7rem;
+    }
+
+}
