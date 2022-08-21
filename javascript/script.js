@@ -1,5 +1,5 @@
 // OpenWeatherMap API. Do not share it publicly.
-const api = '6a28bf2f5318cf45b0c7cd748ed578da'; //Replace with your API
+const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //Replace with your API
 
 var hourIn24Format = new Date().toLocaleTimeString('en-US', {
     hour12: false,
