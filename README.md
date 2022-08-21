@@ -51,8 +51,8 @@ First of all in `Strome.ly’s` home page we have a navbar & a search bar - wher
 
 ### Step 1: Download the Repository
 
-Either Clone the repository using git clone: `git clone https://github.com/biswajittt/forum.git` 
-or install via <a target="_blank" href="https://github.com/biswajittt/forum/archive/master.zip">zip</a> and extract 
+Either Clone the repository using git clone: `git clone https://github.com/biswajittt/Strome.ly.git`
+or install via <a target="_blank" href="https://github.com/biswajittt/Strome.ly.git/archive/master.zip">zip</a> and extract 
 to any of your folders you wish.
 
 -----
@@ -74,10 +74,12 @@ To run the Strome.ly application, you can double click on the `stromely.html` fi
 ![Hourly Weather Data](screenshots/computer/hourly-weather.png)
 ![Forecast](screenshots/computer/forecast.png)
 
-### Strome.ly in Computer:
+### Strome.ly in Mobile:
 
+<p align="center">
 ![Home](screenshots/mobile/home.png)
 ![Weather Data](screenshots/mobile/weather-data.png)
 ![Hourly Weather Data](screenshots/mobile/hourly-weather.png)
 ![Forecast](screenshots/mobile/forecast.png)
 ![More Forecast](screenshots/mobile/more-forecast.png)
+</p>
